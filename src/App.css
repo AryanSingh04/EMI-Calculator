@@ -122,4 +122,16 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: .8rem;
     font-weight: 600;
   }
+    .field{
+    & .inwrap{
+     width:100%;
+
+     & input{
+      width: 90%;
+     }
+     & .icon{
+      width: 10%;
+     }
+    }
+  }
 }
